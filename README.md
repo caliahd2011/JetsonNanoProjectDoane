@@ -3,8 +3,8 @@ Pneumonia Detection Using Chest X-Ray Images on NVIDIA Jetson Orin Nano
 
 This project detects pneumonia from chest X-ray images using a retrained ResNet-18 learning model. The goal of this detection system is to assist healthcare professionals by making pneumonia diagnosis more efficient, reducing the time required to analyze X-ray images, and works as an additional tool to support clinical decisions.
 Pneumonia is a serious lung infection that affects millions of people each year. An AI detection system like this has many possible applications in hospitals, clinics, and other healthcare settings. While this model is intended as a decision-support tool it demonstrates the potential of AI running on the NVIDIA Jetson Orin Nano for real-time medical image analysis.
+<img width="1627" height="681" alt="Screenshot 2026-07-02 135556" src="https://github.com/user-attachments/assets/fa4731f2-e0ab-413f-a1a1-613707c833e1" />
 
-(Link of project working)
 
 # The Algorithm
 The process of detecting pneumonia in lung scans started by being trained through a series of images that are healthy and that have pneumonia. The retrained ResNet-18 tool allows AI to learn what a lung scan with pneumonia looks like versus one without. After the model is trained it is then tested to see if it successfully can detect different lung scans based on the knowledge it learned. The only classification options for the images are “normal” and “pneumonia”. 
